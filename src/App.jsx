@@ -1,10 +1,21 @@
 import './App.css'
 
+// components
+import SideNav from './components/SideNav'
+import TopNav from './components/TopNav'
+import Hero from './components/Hero'
+
 function App() {
 
   return (
     <>
-      <h1 className='text-md'>My Vite Portfolio</h1>
+      <SideNav />
+      <main className="sn-main">
+        <TopNav />
+        <Hero />
+        <Hero />
+        <Hero />
+      </main>
     </>
   )
 }
