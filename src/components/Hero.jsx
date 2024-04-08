@@ -1,3 +1,5 @@
+import profile from "../assets/images/profile-pic-2-no-bg.png";
+
 export default function Hero()
 {
     return(
@@ -17,7 +19,7 @@ export default function Hero()
                     </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                    <img className="object-cover object-center rounded" alt="hero" src={profile} />
                     </div>
                 </div>
             </section>

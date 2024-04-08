@@ -1,4 +1,4 @@
-import viteImg from '../assets/images/vite.svg';
+import logo from '../assets/images/logo-no-bg.png';
 
 export default function SideNav()
 {
@@ -9,7 +9,7 @@ export default function SideNav()
                     <li className="sn-logo">
                         <a href="#" className="sn-nav-link">
                             <span className="sn-link-text">PORTFOLIO</span>
-                            <img src={viteImg} alt="sampleLogo" width="30px" height="30px" />
+                            <img src={logo} alt="sampleLogo" width="60px" height="60px" />
                         </a>
                     </li>
             
