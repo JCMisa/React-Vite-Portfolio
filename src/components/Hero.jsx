@@ -1,4 +1,4 @@
-import profile from "../assets/images/profile-pic-2-no-bg.png";
+import profile from "../assets/images/profile-pic-2-no-bg-enhanced.png";
 
 export default function Hero()
 {
