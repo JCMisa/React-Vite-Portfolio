@@ -1,11 +1,13 @@
-import profile from "../assets/images/profile-pic-2-no-bg-enhanced.png";
+import profile from "../../assets/images/profile-pic-2-no-bg-enhanced.png";
+import metallicIcon1 from "../../assets/images/metallic-metallic-abstract-fluid-shape-2.png";
 
 export default function Hero()
 {
     return(
         <>
             <section className="text-gray-400 bg-transparent body-font">
-                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative">
+                    <img className="absolute right-[16rem] z-[-1] opacity-20" src={metallicIcon1} alt="icon1" />
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Welcome
                         <br className="hidden lg:inline-block" /> <span className="text-[#667eea]">I am John Carlo Misa</span>

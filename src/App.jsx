@@ -3,7 +3,8 @@ import './App.css'
 // components
 import SideNav from './components/SideNav'
 import TopNav from './components/TopNav'
-import Hero from './components/Hero'
+import Home from './components/home/Home'
+import About from './components/about/About'
 
 function App() {
 
@@ -12,9 +13,8 @@ function App() {
       <SideNav />
       <main className="sn-main">
         <TopNav />
-        <Hero />
-        <Hero />
-        <Hero />
+        <Home />
+        <About />
       </main>
     </>
   )
