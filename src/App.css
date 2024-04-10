@@ -41,12 +41,18 @@
   color: #888;
 }
 
+.main-container {
+  width: 95vw;
+}
 
 
 
 
 
 
+body {
+  overflow-x: hidden;
+}
 
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -58,11 +64,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #667eea;
-}
-
-.sn-main {
-  margin-left: 5rem;
-  padding: 1rem;
 }
 
 .sn-navbar {

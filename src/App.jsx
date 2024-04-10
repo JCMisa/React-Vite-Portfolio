@@ -5,17 +5,19 @@ import SideNav from './components/SideNav'
 import TopNav from './components/TopNav'
 import Home from './components/home/Home'
 import About from './components/about/About'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
       <SideNav />
-      <main className="sn-main">
+      <div className="main-container">
         <TopNav />
         <Home />
         <About />
-      </main>
+        <Footer />
+      </div>
     </>
   )
 }

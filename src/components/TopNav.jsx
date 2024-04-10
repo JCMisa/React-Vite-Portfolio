@@ -22,7 +22,7 @@ export default function TopNav()
 
     return(
         <>
-            <header className={`text-gray-400 body-font w-full max-w-screen-xl mx-auto fixed top-0 left-20 top-nav transition-colors duration-300 ease-in-out ${isScrolled ? 'backdrop-blur' : 'bg-transparent'}`} id="top">
+            <header className={`z-[1] text-gray-400 body-font w-full mx-auto fixed top-0 top-nav transition-colors duration-300 ease-in-out ${isScrolled ? 'backdrop-blur' : 'bg-transparent'}`} id="top">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer">
                         <img src={logo} alt="sampleLogo" width="90px" height="90px" />

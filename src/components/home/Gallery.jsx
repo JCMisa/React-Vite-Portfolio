@@ -1,9 +1,9 @@
-import gallery1 from "../../assets/images/gallery-img-1.png";
-import gallery2 from "../../assets/images/gallery-img-2.png";
-import gallery3 from "../../assets/images/gallery-img-3.png";
-import gallery4 from "../../assets/images/gallery-img-4.png";
-import gallery5 from "../../assets/images/gallery-img-5.png";
-import gallery6 from "../../assets/images/gallery-img-6.png";
+import gallery1 from "../../assets/images/gallery-sample-img-1.jpg";
+import gallery2 from "../../assets/images/gallery-sample-img-2.jpg";
+import gallery3 from "../../assets/images/gallery-sample-img-3.jpg";
+import gallery4 from "../../assets/images/gallery-sample-img-4.jpg";
+import gallery5 from "../../assets/images/gallery-sample-img-5.jpg";
+import gallery6 from "../../assets/images/gallery-sample-img-6.jpg";
 
 export default function Gallery()
 {
@@ -22,24 +22,24 @@ export default function Gallery()
                     <div className="flex flex-wrap md:-m-2 -m-1">
                         <div className="flex flex-wrap w-1/2">
                             <div className="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" className="w-full object-cover h-full object-center block" src={gallery4} />
+                            <img alt="gallery" className="w-full object-cover h-full object-center block opacity-75" src={gallery5} />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" className="w-full object-cover h-full object-center block" src={gallery2} />
+                            <img alt="gallery" className="w-full object-cover h-full object-center block opacity-75" src={gallery2} />
                             </div>
                             <div className="md:p-2 p-1 w-full">
-                            <img alt="gallery" className="w-full h-full object-cover object-center block" src={gallery3} />
+                            <img alt="gallery" className="w-full h-full object-cover object-center block opacity-75" src={gallery3} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/2">
                             <div className="md:p-2 p-1 w-full">
-                            <img alt="gallery" className="w-full h-full object-cover object-center block" src={gallery1} />
+                            <img alt="gallery" className="w-full h-full object-cover object-center block opacity-75" src={gallery1} />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" className="w-full object-cover h-full object-center block" src={gallery5} />
+                            <img alt="gallery" className="w-full object-cover h-full object-center block opacity-75" src={gallery4} />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" className="w-full object-cover h-full object-center block" src={gallery6} />
+                            <img alt="gallery" className="w-full object-cover h-full object-center block opacity-75" src={gallery6} />
                             </div>
                         </div>
                     </div>

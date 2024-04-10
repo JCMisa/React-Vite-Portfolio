@@ -4,7 +4,7 @@ export default function SideNav()
 {
     return(
         <>
-            <nav className="sn-navbar">
+            <nav className="sn-navbar z-[2]">
                 <ul className="sn-navbar-nav">
                     <li className="sn-logo">
                         <a href="#" className="sn-nav-link">
