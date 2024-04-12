@@ -1,11 +1,11 @@
 import { Bar } from "react-chartjs-2";
-import { Chart as ChartJS } from "chart.js/auto";
+import { Chart as ChartJS, scales } from "chart.js/auto";
 
 export default function BarChart(props)
 {
     return(
         <>
-            <Bar data={props.data} />
+            <Bar data={props.data} options={props.options} />
         </>
     )
 }
