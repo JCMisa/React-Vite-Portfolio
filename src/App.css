@@ -41,9 +41,9 @@
   color: #888;
 }
 
-.main-container {
+/* .main-container {
   width: 95vw;
-}
+} */
 
 
 
@@ -177,6 +177,10 @@ body::-webkit-scrollbar-thumb {
   .top-nav {
     display: none;
   }
+
+  footer .footer-logo {
+    display: none;
+  }
 }
 
 /*small screens*/
@@ -220,6 +224,10 @@ body::-webkit-scrollbar-thumb {
   }
 
   .top-nav {
+    display: none;
+  }
+   
+  footer .footer-logo {
     display: none;
   }
 }
